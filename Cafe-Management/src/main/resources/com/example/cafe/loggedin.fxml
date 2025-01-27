@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cafe.loggedinController">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="257.0" style="-fx-background-color: FF5733;">
+            <children>
+                <Label layoutX="14.0" layoutY="210.0" prefHeight="32.0" prefWidth="214.0" text="Desert Delights">
+                    <font>
+                        <Font name="Forte" size="29.0" />
+                    </font></Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="400.0" prefWidth="402.0" style="-fx-background-color: #F08080;">
+         <children>
+            <Label layoutX="50.0" layoutY="155.0" text="Username:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="212.0" text="Password:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="l_username_t" alignment="CENTER" layoutX="132.0" layoutY="155.0" promptText="Enter" />
+            <TextField fx:id="l_password_t" alignment="CENTER" layoutX="133.0" layoutY="212.0" promptText="Enter" />
+            <Button layoutX="170.0" layoutY="260.0" mnemonicParsing="false" onAction="#login_Button_Clicked" prefHeight="26.0" prefWidth="70.0" text="Login" />
+            <Label layoutX="50.0" layoutY="300.0" text="Not Registered?">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="170.0" layoutY="298.0" mnemonicParsing="false" onAction="#register_Button_Clicked" prefHeight="26.0" prefWidth="70.0" text="Register" />
+         </children></AnchorPane>
+    </children>
+</HBox>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F08080;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cafe.feedbackController">
+   <children>
+      <Label layoutX="228.0" layoutY="54.0" prefHeight="42.0" prefWidth="200.0" text="Feedback">
+         <font>
+            <Font name="Forte" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="183.0" prefHeight="28.0" prefWidth="134.0" text="How was our service? ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="f_feedback_t" alignment="CENTER" layoutX="226.0" layoutY="183.0" prefHeight="26.0" prefWidth="254.0" promptText="Write Feedback" />
+      <Button layoutX="262.0" layoutY="277.0" mnemonicParsing="false" text="Submit" onAction="#on_submit_Clicked"/>
+      <Label fx:id="feedback_not" layoutX="214.0" layoutY="234.0" prefHeight="18.0" prefWidth="166.0" />
+   </children>
+</AnchorPane>

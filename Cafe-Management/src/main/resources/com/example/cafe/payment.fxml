@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F08080;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cafe.paymentController">
+   <children>
+      <Button layoutX="194.0" layoutY="211.0" mnemonicParsing="false" onAction="#feedback_Button_Clicked" prefHeight="26.0" prefWidth="50.0" text="Card" />
+      <Button layoutX="340.0" layoutY="211.0" mnemonicParsing="false" onAction="#feedback_Button_Clicked" text="Cash" />
+      <Label layoutX="235.0" layoutY="44.0" prefHeight="36.0" prefWidth="209.0" text="Payment">
+         <font>
+            <Font name="Forte" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="p_payment_t" layoutX="199.0" layoutY="135.0" prefHeight="18.0" prefWidth="237.0" />
+   </children>
+</AnchorPane>

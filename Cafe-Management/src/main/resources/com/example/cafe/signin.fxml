@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F08080;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cafe.signinController">
+    <Button layoutX="268.0" layoutY="246.0" mnemonicParsing="false" onAction="#register_Button_Clicked" text="Register" />
+   <Label layoutX="233.0" layoutY="44.0" prefHeight="46.0" prefWidth="143.0" text="Sign Up">
+      <font>
+         <Font name="Forte" size="41.0" />
+      </font></Label>
+   <Label layoutX="134.0" layoutY="144.0" text="Enter Username:" />
+   <Label layoutX="134.0" layoutY="191.0" text="Enter Password:" />
+   <TextField fx:id="s_username_t" alignment="CENTER" layoutX="226.0" layoutY="140.0" promptText="Username" />
+   <TextField fx:id="s_password_t" alignment="CENTER" layoutX="226.0" layoutY="187.0" promptText="Password" />
+</AnchorPane>
