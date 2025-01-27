@@ -54,6 +54,8 @@ Cafe-Management/
 
 ## Setup Instructions
 1. Clone the repository to your local machine.
+     ```bash
+   git clone https://github.com/Zain-Rizwan/Cafe-Management-System.git
 2. Open the project in your preferred Java IDE (Eclipse/IntelliJ IDEA).
 3. Configure the database connection in the `utils/DatabaseConnection.java` file.
 4. Run the `CafeManagementSystem.java` file to launch the application.
